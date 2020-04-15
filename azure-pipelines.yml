@@ -29,6 +29,6 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'hub'
-        repository: 'iamdkrz/microfrontends-products-list'
+        repository: 'iamdkrz/productlist'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
